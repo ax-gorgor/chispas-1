@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: "EB Garamond", sans-serif;
+    
+    }
+
+body{font-family: 'EB Garamond', sans-serif; 
+}
+
+.container-1 {
+     
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    height: 8%;
+    margin-top: 0;
+    padding: 0%;
+    top: 0;
+    z-index: 10;
+     
+     }
+
+.container-1 .fixed {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    background: white;
+    padding: 18px;
+    
+} 
+
+.ocultar {
+  /* La propiedad que solicitaste */
+  display: none !important;
+}
+
+.container-1 .fixed h1{width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6px;
+background: white;}
+
+.container-1 .fixed h2{width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+font-size: 20px;
+padding: 2px;
+background: white;}
+
+.container-1 .fixed span{width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+font-size: 20px;
+padding: 6px;
+padding-bottom: 24px;
+background: white;
+  border-bottom: 1px solid #3e3e3e;
+    
+}
+
+   .container-1 .spaces{ display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        width: 100%;
+                        margin-top: 180px;
+                        margin-bottom: 24px;
+    }
+    
+
+ 
+
+.capital::first-letter {
+    font-size: 3em;
+    color: purple;
+    float: left;            /* ¡Esto es clave para que el texto la contornee! */
+    margin-right: 0.15em;   /* Espacio entre la letra y el texto */
+    line-height: 1;         /* Ajusta la altura de la línea de la letra capital */
+    font-weight: bold;
+}
+
+.container-1 .subcontainer-1{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.subcontainer-1 h3{
+
+     width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+    margin: 24px;
+    padding: 12px;
+    
+}
+
+.subcontainer-1 p{
+
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 22px;
+    margin: 24px;
+    padding: 12px;
+     line-height: 1.5em;
+    
+}
+
+.subcontainer-1 h4{
+
+     width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+    margin: 24px;
+    padding: 12px;
+    
+}
+
+.subcontainer-1 h5{
+
+     width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+    margin: 24px;
+    padding: 12px;
+    
+}
+
+.subcontainer-1 span{
+
+     width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 24px;
+    margin: 24px;
+    padding: 12px;
+    
+}
+
+@media screen and (max-width: 768px) {
+   
+
+    .container-1{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+   .container-1 .spaces{ display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        width: 98%;
+                        margin-top: 72px;
+                        margin-bottom: 24px;
+    }
+    
+    .container-1 .subcontainer-1{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    
+}
+
+.subcontainer-1 h3{
+
+     width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 24px;
+    margin: 12px;
+    padding: 6px;
+    
+}
+
+.subcontainer-1 p{
+
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    margin: 12px;
+    padding: 6px;
+    
+}
+
+.subcontainer-1 h4{
+
+     width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+    margin: 12px;
+    padding: 6px;
+    
+}
+
+.subcontainer-1 h5{
+
+     width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+    margin: 12px;
+    padding: 6px;
+    
+}
+
+.subcontainer-1 span{
+
+     width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 24px;
+    margin: 12px;
+    padding: 6px;
+    
+}
+
+     
+
+}
