@@ -87,7 +87,18 @@ background: white;
     }
     
 
- 
+ .downPage{
+    font-style: italic;
+    display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content:left;
+                        font-weight: 400;
+                        font-size: 20px;
+                        width: 60%;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+ }
 
 .capital::first-letter {
     font-size: 3em;
