@@ -251,7 +251,8 @@ background: white;
     justify-content: center;
     font-size: 28px;
     margin: 12px;
-    margin-top: 72px;
+    margin-top: 72
+    px;
     padding: 6px;
     
 }
@@ -281,6 +282,19 @@ background: white;
     padding: 6px;
     
 }
+
+.downPage{
+    font-style: italic;
+    display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content:left;
+                        font-weight: 400;
+                        font-size: 18px;
+                        width: 80%;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+ }
 
      
 
